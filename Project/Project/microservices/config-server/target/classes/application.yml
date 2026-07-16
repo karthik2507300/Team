@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          # Local folder that holds all the *.yml configuration files.
+          # Resolved relative to the config-server working directory.
+          search-locations: file:../config-repo,file:./config-repo,classpath:/config-repo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

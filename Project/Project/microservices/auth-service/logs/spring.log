@@ -1,0 +1,156 @@
+2026-07-16 01:43:24.430 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h44s308ms512µs300ns).
+2026-07-16 08:48:05.168 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h4m48s919ms452µs300ns).
+2026-07-16 08:50:26.551 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 08:51:53.618 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 08:51:53.618 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 08:51:54.258 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (640 ms)
+2026-07-16 08:51:54.260 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (642 ms)
+2026-07-16 08:51:54.833 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 08:51:54.833 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 08:51:54.872 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (39 ms)
+2026-07-16 08:51:54.872 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (39 ms)
+2026-07-16 08:55:26.554 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 08:56:18.329 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.logout() args=[SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@7ff1853c]]
+2026-07-16 08:56:18.341 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.logout() args=[Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBjZXJ0aWZ5cHJvLmNvbSIsInVpZCI6MSwicm9sZSI6IkFkbWluIiwidHlwZSI6ImFjY2VzcyIsImlhdCI6MTc4NDEyMDkwOCwiZXhwIjoxNzg0MjA3MzA4fQ.D1fXShSCcHrxxYQGE7NUY-lBp_Zk87ZQxAa3kUmwV7dL3dVLU8lTATyHcyEX66IZ]
+2026-07-16 08:56:18.341 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.logout() (0 ms)
+2026-07-16 08:56:18.343 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.logout() (20 ms)
+2026-07-16 08:56:28.570 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-16 08:56:28.570 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-16 08:56:29.058 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (488 ms)
+2026-07-16 08:56:29.058 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (488 ms)
+2026-07-16 08:56:29.126 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 08:56:29.126 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 08:56:29.152 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (26 ms)
+2026-07-16 08:56:29.152 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (26 ms)
+2026-07-16 08:56:29.231 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 08:56:29.233 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 08:56:29.290 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (57 ms)
+2026-07-16 08:56:29.290 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (59 ms)
+2026-07-16 08:56:32.616 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.logout() args=[SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6157b8c2]]
+2026-07-16 08:56:32.616 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.logout() args=[Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBjZXJ0aWZ5cHJvLmNvbSIsInVpZCI6MSwicm9sZSI6IkFkbWluIiwidHlwZSI6ImFjY2VzcyIsImlhdCI6MTc4NDE3MjM4OSwiZXhwIjoxNzg0MjU4Nzg5fQ.gvwLTXagVqTEVhSNyqa4GUwwbS6-FgK4DRZs97igAn6v09VfYLf1Qe9Z32BPpDUB]
+2026-07-16 08:56:32.617 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.logout() (1 ms)
+2026-07-16 08:56:32.617 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.logout() (8 ms)
+2026-07-16 08:57:06.568 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-16 08:57:06.568 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-16 08:57:06.904 [http-nio-8081-exec-6] ERROR c.c.auth.aspect.LoggingAspect - ERROR AuthServiceImpl.login() (336 ms): Invalid email or password
+2026-07-16 08:57:06.904 [http-nio-8081-exec-6] ERROR c.c.auth.aspect.LoggingAspect - ERROR AuthController.login() (336 ms): Invalid email or password
+2026-07-16 08:57:23.339 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-16 08:57:23.339 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-16 08:57:23.679 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (339 ms)
+2026-07-16 08:57:23.679 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (340 ms)
+2026-07-16 08:57:23.759 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 08:57:23.759 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 08:57:23.800 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (41 ms)
+2026-07-16 08:57:23.811 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (52 ms)
+2026-07-16 08:57:23.858 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 08:57:23.858 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 08:57:23.909 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (51 ms)
+2026-07-16 08:57:23.911 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (53 ms)
+2026-07-16 08:57:27.341 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-16 08:57:27.341 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-16 08:57:27.366 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (25 ms)
+2026-07-16 08:57:27.366 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (25 ms)
+2026-07-16 08:57:27.399 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-16 08:57:27.399 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-16 08:57:27.424 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (25 ms)
+2026-07-16 08:57:27.424 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (25 ms)
+2026-07-16 09:00:26.568 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:03:11.949 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogController.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:03:11.951 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogServiceImpl.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:03:12.028 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogServiceImpl.search() (77 ms)
+2026-07-16 09:03:12.028 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogController.search() (79 ms)
+2026-07-16 09:03:12.069 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogController.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:03:12.069 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogServiceImpl.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:03:12.079 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogServiceImpl.search() (10 ms)
+2026-07-16 09:03:12.079 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogController.search() (10 ms)
+2026-07-16 09:05:26.613 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:15:46.566 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s82ms39µs200ns).
+2026-07-16 09:19:37.694 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:22:29.220 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 09:22:29.221 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 09:22:29.301 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (80 ms)
+2026-07-16 09:22:29.301 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (81 ms)
+2026-07-16 09:22:29.340 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 09:22:29.340 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 09:22:29.359 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (19 ms)
+2026-07-16 09:22:29.360 [http-nio-8081-exec-5] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (20 ms)
+2026-07-16 09:22:31.558 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-16 09:22:31.558 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-16 09:22:31.575 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (17 ms)
+2026-07-16 09:22:31.575 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (17 ms)
+2026-07-16 09:22:31.605 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-16 09:22:31.606 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-16 09:22:31.620 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (13 ms)
+2026-07-16 09:22:31.620 [http-nio-8081-exec-8] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (15 ms)
+2026-07-16 09:22:36.791 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogController.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:22:36.792 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogServiceImpl.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:22:36.810 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogServiceImpl.search() (18 ms)
+2026-07-16 09:22:36.811 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogController.search() (20 ms)
+2026-07-16 09:22:36.833 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogController.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:22:36.833 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuditLogServiceImpl.search() args=[null, null, null, null, 0, 10]
+2026-07-16 09:22:36.842 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogServiceImpl.search() (9 ms)
+2026-07-16 09:22:36.842 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuditLogController.search() (9 ms)
+2026-07-16 09:23:00.065 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-16 09:23:00.066 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-16 09:23:00.093 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (25 ms)
+2026-07-16 09:23:00.093 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (28 ms)
+2026-07-16 09:23:00.126 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-16 09:23:00.127 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-16 09:23:00.144 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (17 ms)
+2026-07-16 09:23:00.144 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (18 ms)
+2026-07-16 09:23:27.749 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.logout() args=[SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3a94c4a3]]
+2026-07-16 09:23:27.750 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.logout() args=[Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBjZXJ0aWZ5cHJvLmNvbSIsInVpZCI6MSwicm9sZSI6IkFkbWluIiwidHlwZSI6ImFjY2VzcyIsImlhdCI6MTc4NDE3MjQ0MywiZXhwIjoxNzg0MjU4ODQzfQ.gF0tVn7seOyC14UFGrjRpFp1hSRYiviBPw-cGNEBqfRC0F1arjq4SYo6h-F2EkvL]
+2026-07-16 09:23:27.751 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.logout() (1 ms)
+2026-07-16 09:23:27.751 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.logout() (2 ms)
+2026-07-16 09:23:36.488 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-16 09:23:36.489 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-16 09:23:36.806 [http-nio-8081-exec-4] ERROR c.c.auth.aspect.LoggingAspect - ERROR AuthServiceImpl.login() (317 ms): Invalid email or password
+2026-07-16 09:23:36.808 [http-nio-8081-exec-4] ERROR c.c.auth.aspect.LoggingAspect - ERROR AuthController.login() (320 ms): Invalid email or password
+2026-07-16 09:23:52.383 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-16 09:23:52.384 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-16 09:23:52.705 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (321 ms)
+2026-07-16 09:23:52.706 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (323 ms)
+2026-07-16 09:24:37.705 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:29:37.719 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:34:37.737 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:39:37.741 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:40:35.044 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.logout() args=[SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5c649a96]]
+2026-07-16 09:40:35.044 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.logout() args=[Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJoYXJzaGl0aEBnbWFpbC5jb20iLCJ1aWQiOjcsInJvbGUiOiJFeGFtQ29udHJvbGxlciIsInR5cGUiOiJhY2Nlc3MiLCJpYXQiOjE3ODQxNzQwMzIsImV4cCI6MTc4NDI2MDQzMn0.LcXfEflD2G_PL6YQ-CrhuPk8LrL0RX4az1z5_VNLcv5R6XdCBF-T4XEvIg_9g5WI]
+2026-07-16 09:40:35.044 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.logout() (0 ms)
+2026-07-16 09:40:35.044 [http-nio-8081-exec-7] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.logout() (0 ms)
+2026-07-16 09:44:37.744 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:46:44.820 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-16 09:46:44.821 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-16 09:46:44.977 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (156 ms)
+2026-07-16 09:46:44.977 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (157 ms)
+2026-07-16 09:46:45.021 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 09:46:45.022 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 09:46:45.035 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (13 ms)
+2026-07-16 09:46:45.036 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (15 ms)
+2026-07-16 09:46:45.051 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-16 09:46:45.051 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-16 09:46:45.060 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (9 ms)
+2026-07-16 09:46:45.060 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (9 ms)
+2026-07-16 09:49:37.760 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:54:37.772 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:59:37.779 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:04:37.793 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:09:37.798 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:15:04.180 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:15:13.823 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s374ms359µs700ns).
+2026-07-16 10:42:58.180 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m14s347ms576µs200ns).
+2026-07-16 10:46:50.724 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:52:03.141 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s454ms131µs500ns).
+2026-07-16 10:52:25.577 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 12:34:00.951 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m27s741ms686µs500ns).
+2026-07-16 14:02:12.875 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:02:20.536 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m19s584ms363µs900ns).
+2026-07-16 14:07:12.879 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:12:12.892 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:17:12.895 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:22:12.906 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:27:12.909 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:32:12.921 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:47:26.862 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m29s337ms287µs500ns).
+2026-07-16 14:49:12.239 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:04:33.727 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s792ms229µs400ns).

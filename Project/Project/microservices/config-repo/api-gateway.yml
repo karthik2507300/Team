@@ -1,0 +1,58 @@
+server:
+  port: 8098
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+      routes:
+        - id: auth-service
+          uri: lb://auth-service
+          predicates:
+            - Path=/api/auth/**,/api/users/**,/api/audit-logs/**
+        - id: candidate-service
+          uri: lb://candidate-service
+          predicates:
+            - Path=/api/candidates/**,/api/enrolments/**,/api/programs/**
+        - id: exam-service
+          uri: lb://exam-service
+          predicates:
+            - Path=/api/exam-windows/**,/api/test-centres/**,/api/seat-allocations/**,/api/invigilator-assignments/**
+        - id: question-service
+          uri: lb://question-service
+          predicates:
+            - Path=/api/questions/**,/api/question-papers/**
+        - id: result-service
+          uri: lb://result-service
+          predicates:
+            - Path=/api/script-allocations/**,/api/marks-entries/**,/api/results/**,/api/re-evaluation-requests/**
+        - id: certificate-service
+          uri: lb://certificate-service
+          predicates:
+            - Path=/api/certificates/**,/api/renewals/**
+        - id: analytics-service
+          uri: lb://analytics-service
+          predicates:
+            - Path=/api/reports/**
+        - id: notification-service
+          uri: lb://notification-service
+          predicates:
+            - Path=/api/notifications/**
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origin-patterns:
+              - "http://localhost:*"
+              - "http://127.0.0.1:*"
+            allowed-methods: [GET, POST, PUT, PATCH, DELETE, OPTIONS]
+            allowed-headers: "*"
+            allow-credentials: true
+
+# Paths that DO NOT require a JWT (checked by the gateway GlobalFilter).
+gateway:
+  public-paths:
+    - /api/auth/register
+    - /api/auth/login
+    - /api/auth/refresh-token

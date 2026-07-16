@@ -1,0 +1,114 @@
+2026-07-16 08:51:08.673 [main] INFO  c.c.q.QuestionServiceApplication - Starting QuestionServiceApplication using Java 21.0.8 with PID 36908 (C:\Users\2507300\Downloads\Project\Project\Project\microservices\question-service\target\classes started by 2507300 in C:\Users\2507300\Downloads\Project\Project\Project\microservices\question-service)
+2026-07-16 08:51:08.706 [main] INFO  c.c.q.QuestionServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-16 08:51:08.805 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8888
+2026-07-16 08:51:08.805 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=question-service, profiles=[default], label=null, version=null, state=null
+2026-07-16 08:51:12.115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-16 08:51:12.550 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 411 ms. Found 3 JPA repository interfaces.
+2026-07-16 08:51:13.363 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=167fd97b-48cf-33b3-af4b-757184ccc79f
+2026-07-16 08:51:14.523 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-07-16 08:51:14.537 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-07-16 08:51:15.597 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2026-07-16 08:51:15.633 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-16 08:51:15.633 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-16 08:51:15.834 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-16 08:51:15.835 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7025 ms
+2026-07-16 08:51:17.352 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-16 08:51:17.544 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-16 08:51:17.746 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-16 08:51:18.672 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-16 08:51:18.781 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-16 08:51:19.294 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f0fb02
+2026-07-16 08:51:19.304 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-16 08:51:22.937 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-16 08:51:23.262 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-16 08:51:25.354 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 958d0d08-f869-4df2-befa-949a93e6b77b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-16 08:51:25.446 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-07-16 08:51:28.674 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-07-16 08:51:31.772 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2026-07-16 08:51:32.088 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-16 08:51:32.452 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-07-16 08:51:32.536 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-07-16 08:51:32.547 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 08:51:32.574 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-07-16 08:51:32.574 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-07-16 08:51:32.575 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-07-16 08:51:32.575 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-07-16 08:51:32.575 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-07-16 08:51:32.576 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-07-16 08:51:32.576 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-07-16 08:51:33.326 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-07-16 08:51:33.334 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-07-16 08:51:33.345 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-16 08:51:33.349 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1784172093349 with initial instances count: 7
+2026-07-16 08:51:33.389 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application QUESTION-SERVICE with eureka with status UP
+2026-07-16 08:51:33.392 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784172093392, current=UP, previous=STARTING]
+2026-07-16 08:51:33.397 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_QUESTION-SERVICE/LTIN708779.cts.com:question-service:8084: registering service...
+2026-07-16 08:51:33.448 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2026-07-16 08:51:33.450 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8084
+2026-07-16 08:51:33.486 [main] INFO  c.c.q.QuestionServiceApplication - Started QuestionServiceApplication in 27.514 seconds (process running for 29.243)
+2026-07-16 08:51:33.501 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_QUESTION-SERVICE/LTIN708779.cts.com:question-service:8084 - registration status: 204
+2026-07-16 08:51:34.101 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-16 08:51:34.102 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-16 08:51:34.104 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-07-16 08:56:32.587 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:01:32.595 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:07:28.595 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s946ms993µs600ns).
+2026-07-16 09:15:43.695 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:16:00.801 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m32s206ms80µs800ns).
+2026-07-16 09:20:43.697 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:23:55.073 [http-nio-8084-exec-1] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionController.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:23:55.078 [http-nio-8084-exec-1] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionServiceImpl.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:23:56.261 [http-nio-8084-exec-1] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionServiceImpl.filter() (1183 ms)
+2026-07-16 09:23:56.335 [http-nio-8084-exec-1] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionController.filter() (1262 ms)
+2026-07-16 09:23:56.492 [http-nio-8084-exec-2] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionController.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:23:56.492 [http-nio-8084-exec-2] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionServiceImpl.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:23:56.506 [http-nio-8084-exec-2] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionServiceImpl.filter() (14 ms)
+2026-07-16 09:23:56.508 [http-nio-8084-exec-2] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionController.filter() (16 ms)
+2026-07-16 09:24:24.532 [http-nio-8084-exec-3] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionController.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:24:24.534 [http-nio-8084-exec-3] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionServiceImpl.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:24:24.552 [http-nio-8084-exec-3] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionServiceImpl.filter() (18 ms)
+2026-07-16 09:24:24.554 [http-nio-8084-exec-3] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionController.filter() (22 ms)
+2026-07-16 09:24:24.593 [http-nio-8084-exec-4] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionController.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:24:24.595 [http-nio-8084-exec-4] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionServiceImpl.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:24:24.612 [http-nio-8084-exec-4] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionServiceImpl.filter() (18 ms)
+2026-07-16 09:24:24.613 [http-nio-8084-exec-4] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionController.filter() (20 ms)
+2026-07-16 09:25:43.711 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:30:43.721 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:35:18.318 [http-nio-8084-exec-7] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionController.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:35:18.319 [http-nio-8084-exec-7] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionServiceImpl.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:35:18.326 [http-nio-8084-exec-7] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionServiceImpl.filter() (7 ms)
+2026-07-16 09:35:18.327 [http-nio-8084-exec-7] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionController.filter() (9 ms)
+2026-07-16 09:35:18.340 [http-nio-8084-exec-8] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionController.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:35:18.341 [http-nio-8084-exec-8] INFO  c.c.question.aspect.LoggingAspect - ENTER QuestionServiceImpl.filter() args=[null, null, null, 0, 10]
+2026-07-16 09:35:18.346 [http-nio-8084-exec-8] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionServiceImpl.filter() (5 ms)
+2026-07-16 09:35:18.346 [http-nio-8084-exec-8] INFO  c.c.question.aspect.LoggingAspect - EXIT  QuestionController.filter() (6 ms)
+2026-07-16 09:35:43.733 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:40:43.739 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:45:43.746 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:50:43.748 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:55:43.753 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:00:43.768 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:05:43.772 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:10:43.774 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:15:28.052 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s257ms562µs800ns).
+2026-07-16 10:42:56.705 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:43:14.614 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m16s552ms12µs300ns).
+2026-07-16 10:47:56.710 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:52:19.614 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s452ms747µs300ns).
+2026-07-16 10:53:31.592 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:02:07.029 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h5m17s319ms745µs600ns).
+2026-07-16 14:03:18.886 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:08:18.900 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:13:18.916 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:18:18.921 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:23:18.934 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:28:18.946 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:33:18.954 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:47:44.269 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m29s318ms77µs300ns).
+2026-07-16 14:50:18.267 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:04:21.166 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s835ms717µs300ns).

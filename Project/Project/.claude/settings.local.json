@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Read(//c/Program Files/Java/**)",
+      "Bash(curl -sSL -o .mvn/wrapper/maven-wrapper.jar https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.3.2/maven-wrapper-3.3.2.jar)",
+      "Bash(curl -sSL -o mvnw https://raw.githubusercontent.com/apache/maven-wrapper/maven-wrapper-3.3.2/maven-wrapper-distribution/src/resources/mvnw)",
+      "Bash(curl -sSL -o mvnw.cmd https://raw.githubusercontent.com/apache/maven-wrapper/maven-wrapper-3.3.2/maven-wrapper-distribution/src/resources/mvnw.cmd)",
+      "Bash(npm install *)",
+      "Bash(netstat -ano)",
+      "Bash(rm -f auth/AuthController.java auth/MeController.java auth/LoginRequest.java auth/LoginResponse.java user/User.java user/Role.java user/Status.java user/UserRepository.java security/CustomUserDetailsService.java)",
+      "Bash(rmdir auth *)",
+      "Bash(cd /c/Project/backend/src/main/java/com/certifypro && rm -f model/Role.java model/Status.java && echo \"removed old model/Role.java and model/Status.java\")",
+      "Bash(seq 1 45)",
+      "Read(//tmp/**)",
+      "Bash(break)",
+      "Bash(sleep 2)",
+      "Bash(echo \"=== flyway + startup ===\")",
+      "Bash(powershell -NoProfile -Command 'Get-CimInstance Win32_Process -Filter \"name='\\\\''java.exe'\\\\''\" | Select-Object ProcessId,@{n='\\\\''Cmd'\\\\'';e={$_.CommandLine.Substring\\(0,[Math]::Min\\(80,$_.CommandLine.Length\\)\\)}} | Format-Table -Auto -Wrap')",
+      "Bash(powershell -NoProfile -Command 'Get-CimInstance Win32_Process -Filter \"name='\\\\''java.exe'\\\\''\" | Where-Object { $_.CommandLine -like '\\\\''*certifypro*'\\\\'' -or $_.CommandLine -like '\\\\''*spring-boot*'\\\\'' } | Select-Object ProcessId | Format-Table -Auto')",
+      "Bash(seq 1 60)",
+      "Bash(grep -qE \"Started CertifyProApplication|APPLICATION FAILED|Web server failed\" /tmp/cp_run5.log)",
+      "Bash(echo \"=== boot status ===\")",
+      "Bash(grep -iE \"Started CertifyProApplication|APPLICATION FAILED|Web server failed|Port .* was already|Caused by\" /tmp/cp_run5.log)",
+      "Bash('/c/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe' -uroot -proot -e 'DROP DATABASE IF EXISTS certifypro; CREATE DATABASE certifypro;')",
+      "Bash(npm run *)",
+      "Bash(./mvnw -o -DskipTests -fae clean compile)"
+    ],
+    "additionalDirectories": [
+      "c:\\c\\Project\\backend\\src\\main\\java\\com\\certifypro\\model",
+      "\\tmp"
+    ]
+  }
+}

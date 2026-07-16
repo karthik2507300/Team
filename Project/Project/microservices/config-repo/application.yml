@@ -1,0 +1,77 @@
+# ==========================================================================
+#  SHARED configuration — inherited by EVERY microservice.
+#  Config Server serves this to all clients regardless of application name.
+# ==========================================================================
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+
+# ---- JWT (shared secret so the gateway and auth-service agree) ----
+certifypro:
+  jwt:
+    secret: ${JWT_SECRET:ChangeThisToAStrongRandomSecretKeyForCertifyProJWT2026!!}
+    expiration-ms: ${JWT_EXPIRY:86400000}
+    refresh-secret: ${REFRESH_SECRET:ChangeThisToAnotherStrongRandomRefreshSecretForCertifyPro2026!!}
+    refresh-expiration-ms: ${REFRESH_EXPIRY:604800000}
+  # Header names used to propagate the authenticated identity from the
+  # gateway to downstream services and across Feign calls.
+  auth:
+    header:
+      user-id: X-Auth-User-Id
+      user-email: X-Auth-User-Email
+      role: X-Auth-Role
+
+# ---- JPA / Hibernate (each service owns its own schema) ----
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+# ---- Actuator (needed for Resilience4j circuit-breaker health) ----
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,circuitbreakers,circuitbreakerevents
+  endpoint:
+    health:
+      show-details: always
+  health:
+    circuitbreakers:
+      enabled: true
+
+# ---- Logging → spring.log (Aspect-based logger writes here) ----
+logging:
+  file:
+    name: logs/spring.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    com.certifypro: INFO
+
+# ---- Resilience4j defaults (per-service files add named instances) ----
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        sliding-window-size: 10
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+        permitted-number-of-calls-in-half-open-state: 3
+        register-health-indicator: true
+  timelimiter:
+    configs:
+      default:
+        timeout-duration: 5s

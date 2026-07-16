@@ -1,0 +1,361 @@
+2026-07-16 01:43:39.048 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h48m23s69ms290µs600ns).
+2026-07-16 08:48:04.464 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h4m33s604ms187µs).
+2026-07-16 08:49:04.203 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 08:51:53.450 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 08:51:53.450 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 08:51:53.808 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (358 ms)
+2026-07-16 08:51:53.813 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (363 ms)
+2026-07-16 08:51:53.965 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 08:51:53.967 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 08:51:54.038 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (73 ms)
+2026-07-16 08:51:54.038 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (73 ms)
+2026-07-16 08:54:04.211 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 08:56:29.152 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 08:56:29.159 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 08:56:29.218 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (59 ms)
+2026-07-16 08:56:29.218 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (66 ms)
+2026-07-16 08:56:29.326 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 08:56:29.327 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 08:56:29.343 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (16 ms)
+2026-07-16 08:56:29.343 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (17 ms)
+2026-07-16 08:57:23.781 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 08:57:23.782 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 08:57:23.834 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (52 ms)
+2026-07-16 08:57:23.834 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (57 ms)
+2026-07-16 08:57:23.914 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 08:57:23.918 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 08:57:23.953 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (35 ms)
+2026-07-16 08:57:23.956 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (39 ms)
+2026-07-16 08:57:34.931 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 08:57:34.931 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 08:57:34.997 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (66 ms)
+2026-07-16 08:57:34.997 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (66 ms)
+2026-07-16 08:57:35.017 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 08:57:35.017 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 08:57:35.036 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (19 ms)
+2026-07-16 08:57:35.036 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (19 ms)
+2026-07-16 08:59:04.220 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:01:38.222 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:01:38.224 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:01:38.241 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (17 ms)
+2026-07-16 09:01:38.248 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (19 ms)
+2026-07-16 09:01:38.276 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:01:38.279 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:01:38.288 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (12 ms)
+2026-07-16 09:01:38.288 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (12 ms)
+2026-07-16 09:02:36.845 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.create() args=[CreateProgramRequest[programName=Servicenow Application Developer, body=Servicenow, level=Foundation, eligibilityCriteria=NIL, examFee=500, validityYears=2, maxAttempts=3]]
+2026-07-16 09:02:36.861 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.create() args=[CreateProgramRequest[programName=Servicenow Application Developer, body=Servicenow, level=Foundation, eligibilityCriteria=NIL, examFee=500, validityYears=2, maxAttempts=3]]
+2026-07-16 09:02:37.248 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.create() (387 ms)
+2026-07-16 09:02:37.356 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.create() (551 ms)
+2026-07-16 09:02:37.408 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:02:37.408 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:02:37.421 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (13 ms)
+2026-07-16 09:02:37.421 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (13 ms)
+2026-07-16 09:02:45.631 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:02:45.636 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:02:45.652 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (15 ms)
+2026-07-16 09:02:45.652 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (21 ms)
+2026-07-16 09:02:45.686 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:02:45.759 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:02:45.806 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (47 ms)
+2026-07-16 09:02:45.806 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (120 ms)
+2026-07-16 09:02:48.518 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.getGradingScale() args=[3]
+2026-07-16 09:02:48.518 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.getGradingScale() args=[3]
+2026-07-16 09:02:48.644 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.getGradingScale() (126 ms)
+2026-07-16 09:02:48.644 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.getGradingScale() (126 ms)
+2026-07-16 09:02:54.151 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:02:54.158 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:02:54.176 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (25 ms)
+2026-07-16 09:02:54.176 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (25 ms)
+2026-07-16 09:02:54.209 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:02:54.209 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:02:54.227 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (18 ms)
+2026-07-16 09:02:54.227 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (18 ms)
+2026-07-16 09:03:03.635 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:03:03.635 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:03:03.649 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (14 ms)
+2026-07-16 09:03:03.649 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (14 ms)
+2026-07-16 09:03:03.675 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:03:03.678 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:03:03.689 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (11 ms)
+2026-07-16 09:03:03.691 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (16 ms)
+2026-07-16 09:03:06.528 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:03:06.528 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:03:06.546 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (18 ms)
+2026-07-16 09:03:06.547 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (19 ms)
+2026-07-16 09:03:06.580 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:03:06.580 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:03:06.601 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (21 ms)
+2026-07-16 09:03:06.601 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (21 ms)
+2026-07-16 09:03:09.885 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER EnrolmentController.list() args=[PendingVerification, 0, 10]
+2026-07-16 09:03:09.885 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER EnrolmentServiceImpl.list() args=[PendingVerification, 0, 10]
+2026-07-16 09:03:09.910 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  EnrolmentServiceImpl.list() (25 ms)
+2026-07-16 09:03:09.910 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  EnrolmentController.list() (25 ms)
+2026-07-16 09:03:09.944 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER EnrolmentController.list() args=[PendingVerification, 0, 10]
+2026-07-16 09:03:09.944 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER EnrolmentServiceImpl.list() args=[PendingVerification, 0, 10]
+2026-07-16 09:03:09.953 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  EnrolmentServiceImpl.list() (9 ms)
+2026-07-16 09:03:09.953 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  EnrolmentController.list() (9 ms)
+2026-07-16 09:04:04.228 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:15:45.911 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s82ms101µs900ns).
+2026-07-16 09:18:15.307 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:22:29.216 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 09:22:29.217 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 09:22:29.275 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (58 ms)
+2026-07-16 09:22:29.275 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (59 ms)
+2026-07-16 09:22:29.312 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 09:22:29.313 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 09:22:29.337 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (24 ms)
+2026-07-16 09:22:29.337 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (26 ms)
+2026-07-16 09:22:33.762 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:22:33.763 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:22:33.776 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (13 ms)
+2026-07-16 09:22:33.778 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (16 ms)
+2026-07-16 09:22:33.806 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:22:33.806 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:22:33.819 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (13 ms)
+2026-07-16 09:22:33.819 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (13 ms)
+2026-07-16 09:22:34.644 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:22:34.644 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:22:34.655 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (11 ms)
+2026-07-16 09:22:34.655 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (11 ms)
+2026-07-16 09:22:34.687 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:22:34.688 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:22:34.700 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (12 ms)
+2026-07-16 09:22:34.701 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (14 ms)
+2026-07-16 09:23:15.313 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:23:52.845 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:23:52.846 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:23:52.861 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (15 ms)
+2026-07-16 09:23:52.861 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (16 ms)
+2026-07-16 09:23:52.895 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:23:52.895 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:23:52.908 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (13 ms)
+2026-07-16 09:23:52.911 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (17 ms)
+2026-07-16 09:23:59.334 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:23:59.334 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:23:59.349 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (15 ms)
+2026-07-16 09:23:59.349 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (15 ms)
+2026-07-16 09:23:59.375 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:23:59.376 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:23:59.387 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (11 ms)
+2026-07-16 09:23:59.387 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (12 ms)
+2026-07-16 09:24:12.525 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:24:12.526 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:24:12.544 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (18 ms)
+2026-07-16 09:24:12.544 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (19 ms)
+2026-07-16 09:24:12.575 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:24:12.576 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:24:12.589 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (13 ms)
+2026-07-16 09:24:12.591 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (16 ms)
+2026-07-16 09:24:24.521 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:24:24.523 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:24:24.539 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (18 ms)
+2026-07-16 09:24:24.539 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (18 ms)
+2026-07-16 09:24:24.569 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:24:24.569 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:24:24.583 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (14 ms)
+2026-07-16 09:24:24.584 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (15 ms)
+2026-07-16 09:24:30.674 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:24:30.675 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:24:30.690 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (15 ms)
+2026-07-16 09:24:30.691 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (17 ms)
+2026-07-16 09:24:30.716 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:24:30.717 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:24:30.731 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (14 ms)
+2026-07-16 09:24:30.732 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (15 ms)
+2026-07-16 09:28:15.322 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:33:15.335 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:35:16.047 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:35:16.047 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:35:16.052 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:35:16.053 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:35:16.062 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:35:16.062 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:35:16.067 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:35:16.067 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (5 ms)
+2026-07-16 09:35:18.316 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:35:18.316 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:35:18.322 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (6 ms)
+2026-07-16 09:35:18.322 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:35:18.333 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:35:18.333 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:35:18.338 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:35:18.339 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:38:15.365 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:43:15.373 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:46:45.016 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 09:46:45.017 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 09:46:45.031 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (14 ms)
+2026-07-16 09:46:45.031 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (15 ms)
+2026-07-16 09:46:45.042 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 09:46:45.042 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 09:46:45.052 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (10 ms)
+2026-07-16 09:46:45.052 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (10 ms)
+2026-07-16 09:46:46.783 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:46:46.783 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:46:46.790 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (7 ms)
+2026-07-16 09:46:46.790 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (7 ms)
+2026-07-16 09:46:46.799 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:46:46.799 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:46:46.805 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (6 ms)
+2026-07-16 09:46:46.805 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:48:15.391 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:53:15.410 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:53:53.723 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:53:53.726 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:53:53.735 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (9 ms)
+2026-07-16 09:53:53.735 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (12 ms)
+2026-07-16 09:53:53.747 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:53:53.747 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:53:53.772 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (25 ms)
+2026-07-16 09:53:53.772 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (26 ms)
+2026-07-16 09:56:05.392 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:56:05.392 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:56:05.400 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (8 ms)
+2026-07-16 09:56:05.400 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (8 ms)
+2026-07-16 09:56:05.409 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:56:05.409 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:56:05.414 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:56:05.414 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (5 ms)
+2026-07-16 09:56:23.027 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.update() args=[3, UpdateProgramRequest[programName=null, body=null, level=null, eligibilityCriteria=null, examFee=null, validityYears=null, maxAttempts=null, status=Discontinued]]
+2026-07-16 09:56:23.032 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.update() args=[3, UpdateProgramRequest[programName=null, body=null, level=null, eligibilityCriteria=null, examFee=null, validityYears=null, maxAttempts=null, status=Discontinued]]
+2026-07-16 09:56:23.090 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.update() (58 ms)
+2026-07-16 09:56:23.189 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.update() (218 ms)
+2026-07-16 09:56:23.201 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:56:23.202 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:56:23.207 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:56:23.207 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:56:28.286 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:56:28.287 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:56:28.297 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (10 ms)
+2026-07-16 09:56:28.298 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (12 ms)
+2026-07-16 09:56:28.306 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:56:28.306 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:56:28.310 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (4 ms)
+2026-07-16 09:56:28.310 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (4 ms)
+2026-07-16 09:56:35.558 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:56:35.559 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:56:35.564 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:56:35.564 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:56:35.572 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:56:35.573 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:56:35.577 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (4 ms)
+2026-07-16 09:56:35.577 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (5 ms)
+2026-07-16 09:57:08.016 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.create() args=[CreateProgramRequest[programName=Servicenow Application Developer, body=Servicenow, level=Foundation, eligibilityCriteria=nil, examFee=2000, validityYears=2, maxAttempts=2]]
+2026-07-16 09:57:08.018 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.create() args=[CreateProgramRequest[programName=Servicenow Application Developer, body=Servicenow, level=Foundation, eligibilityCriteria=nil, examFee=2000, validityYears=2, maxAttempts=2]]
+2026-07-16 09:57:08.035 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.create() (17 ms)
+2026-07-16 09:57:08.039 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.create() (23 ms)
+2026-07-16 09:57:08.050 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 09:57:08.051 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 09:57:08.054 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (3 ms)
+2026-07-16 09:57:08.054 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (4 ms)
+2026-07-16 09:57:22.128 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:57:22.128 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:57:22.133 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:57:22.134 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 09:57:22.144 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 09:57:22.144 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 09:57:22.149 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 09:57:22.149 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (5 ms)
+2026-07-16 09:58:15.424 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:03:15.441 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:08:15.447 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:13:15.458 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:14:33.124 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:14:33.124 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:14:33.133 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (9 ms)
+2026-07-16 10:14:33.133 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (9 ms)
+2026-07-16 10:14:33.149 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:14:33.150 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:14:33.154 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (4 ms)
+2026-07-16 10:14:33.155 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 10:15:06.962 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:15:06.962 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:15:06.968 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (6 ms)
+2026-07-16 10:15:06.968 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 10:15:06.980 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:15:06.980 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:15:06.986 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (6 ms)
+2026-07-16 10:15:06.986 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (6 ms)
+2026-07-16 10:15:13.224 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s373ms127µs600ns).
+2026-07-16 10:42:55.607 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:42:55.607 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:42:55.618 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (11 ms)
+2026-07-16 10:42:55.618 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (11 ms)
+2026-07-16 10:42:55.637 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:42:55.637 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:42:55.637 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (0 ms)
+2026-07-16 10:42:55.637 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (0 ms)
+2026-07-16 10:42:59.786 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m16s551ms196µs600ns).
+2026-07-16 10:45:28.378 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:48:04.788 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:48:04.788 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:48:04.798 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (10 ms)
+2026-07-16 10:48:04.798 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (10 ms)
+2026-07-16 10:48:04.813 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:48:04.813 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:48:04.820 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (7 ms)
+2026-07-16 10:48:04.820 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (7 ms)
+2026-07-16 10:49:24.778 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:49:24.778 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:49:24.787 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (9 ms)
+2026-07-16 10:49:24.787 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (9 ms)
+2026-07-16 10:49:24.801 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:49:24.802 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:49:24.806 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (4 ms)
+2026-07-16 10:49:24.806 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (5 ms)
+2026-07-16 10:50:32.557 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 10:50:39.681 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:50:39.681 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:50:39.688 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (7 ms)
+2026-07-16 10:50:39.688 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (7 ms)
+2026-07-16 10:50:39.701 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:50:39.701 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:50:39.711 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (10 ms)
+2026-07-16 10:50:39.711 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (10 ms)
+2026-07-16 10:52:00.210 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:52:00.210 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:52:00.220 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (10 ms)
+2026-07-16 10:52:00.220 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (10 ms)
+2026-07-16 10:52:00.236 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 10:52:00.236 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 10:52:00.241 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (5 ms)
+2026-07-16 10:52:00.241 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (5 ms)
+2026-07-16 10:52:04.791 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s452ms608µs300ns).
+2026-07-16 10:56:03.249 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 12:34:02.601 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m27s743ms95µs100ns).
+2026-07-16 14:02:22.177 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m19s583ms215µs500ns).
+2026-07-16 14:03:45.022 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 14:03:45.022 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 14:03:45.058 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (36 ms)
+2026-07-16 14:03:45.060 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (38 ms)
+2026-07-16 14:03:46.050 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 14:03:46.052 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 14:03:46.060 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (8 ms)
+2026-07-16 14:03:46.067 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (17 ms)
+2026-07-16 14:05:50.542 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:10:50.554 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:15:50.568 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:20:50.578 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:25:50.618 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:30:50.627 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:47:49.965 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:47:52.073 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m29s319ms166µs100ns).
+2026-07-16 14:48:12.530 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 14:48:12.539 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 14:48:12.688 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (150 ms)
+2026-07-16 14:48:12.688 [http-nio-8082-exec-7] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (158 ms)
+2026-07-16 14:48:13.810 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 14:48:13.810 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 14:48:13.841 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (31 ms)
+2026-07-16 14:48:13.841 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (31 ms)
+2026-07-16 15:04:28.904 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s776ms881µs500ns).
+2026-07-16 15:05:11.189 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 15:05:11.192 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 15:05:11.222 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (30 ms)
+2026-07-16 15:05:11.222 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (33 ms)
+2026-07-16 15:05:14.085 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 15:05:14.094 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 15:05:14.110 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (16 ms)
+2026-07-16 15:05:14.112 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (27 ms)
+2026-07-16 15:06:26.738 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

@@ -1,0 +1,19 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: ${EXAM_DB_URL:jdbc:mysql://localhost:3306/certifypro_exam?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      candidate-service:
+        base-config: default
+      auth-service:
+        base-config: default
+      notification-service:
+        base-config: default

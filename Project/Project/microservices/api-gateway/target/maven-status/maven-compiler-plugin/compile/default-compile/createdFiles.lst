@@ -1,0 +1,3 @@
+com\certifypro\gateway\security\JwtValidator.class
+com\certifypro\gateway\security\JwtAuthenticationGlobalFilter.class
+com\certifypro\gateway\ApiGatewayApplication.class
