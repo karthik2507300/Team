@@ -90,3 +90,22 @@ This generated password is for development use only. Your security configuration
 2026-07-16 14:48:34.466 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2026-07-16 15:04:30.731 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s782ms382µs200ns).
 2026-07-16 15:07:11.227 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:12:11.245 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:17:11.257 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:22:11.270 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:27:11.274 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:32:11.290 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:37:11.305 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:42:11.318 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:42:48.354 [RMI TCP Connection(203)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-16 15:42:48.505 [RMI TCP Connection(203)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ANALYTICS-SERVICE with eureka with status DOWN
+2026-07-16 15:42:48.511 [RMI TCP Connection(203)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784196768511, current=DOWN, previous=UP]
+2026-07-16 15:42:48.514 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ANALYTICS-SERVICE/LTIN708779.cts.com:analytics-service:8087: registering service...
+2026-07-16 15:42:48.674 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ANALYTICS-SERVICE/LTIN708779.cts.com:analytics-service:8087 - registration status: 204
+2026-07-16 15:42:49.335 [RMI TCP Connection(203)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-16 15:42:49.588 [RMI TCP Connection(203)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-16 15:42:49.678 [RMI TCP Connection(203)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-16 15:42:49.688 [RMI TCP Connection(203)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-07-16 15:42:52.703 [RMI TCP Connection(203)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-07-16 15:42:52.922 [RMI TCP Connection(203)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ANALYTICS-SERVICE/LTIN708779.cts.com:analytics-service:8087 - deregister  status: 200
+2026-07-16 15:42:52.926 [RMI TCP Connection(203)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

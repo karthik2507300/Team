@@ -359,3 +359,62 @@
 2026-07-16 15:05:14.110 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (16 ms)
 2026-07-16 15:05:14.112 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (27 ms)
 2026-07-16 15:06:26.738 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:11:26.747 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:16:26.758 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:21:26.761 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:26:26.767 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:31:26.769 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:31:42.192 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 15:31:42.192 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 15:31:42.823 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (631 ms)
+2026-07-16 15:31:42.823 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (631 ms)
+2026-07-16 15:31:42.919 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 15:31:42.919 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 15:31:42.951 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (32 ms)
+2026-07-16 15:31:42.951 [http-nio-8082-exec-4] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (32 ms)
+2026-07-16 15:31:44.770 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 15:31:44.770 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 15:31:44.834 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (64 ms)
+2026-07-16 15:31:44.834 [http-nio-8082-exec-8] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (64 ms)
+2026-07-16 15:31:44.898 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 15:31:44.898 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 15:31:45.026 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (128 ms)
+2026-07-16 15:31:45.026 [http-nio-8082-exec-3] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (128 ms)
+2026-07-16 15:36:26.788 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:37:30.481 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 15:37:30.481 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 15:37:30.527 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (46 ms)
+2026-07-16 15:37:30.538 [http-nio-8082-exec-6] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (57 ms)
+2026-07-16 15:37:30.569 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 1]
+2026-07-16 15:37:30.569 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 1]
+2026-07-16 15:37:30.616 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (47 ms)
+2026-07-16 15:37:30.616 [http-nio-8082-exec-9] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (47 ms)
+2026-07-16 15:37:33.733 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 15:37:33.733 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 15:37:33.743 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (10 ms)
+2026-07-16 15:37:33.743 [http-nio-8082-exec-10] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (10 ms)
+2026-07-16 15:37:33.762 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 100]
+2026-07-16 15:37:33.775 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 100]
+2026-07-16 15:37:33.795 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (20 ms)
+2026-07-16 15:37:33.795 [http-nio-8082-exec-1] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (33 ms)
+2026-07-16 15:37:34.834 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 15:37:34.841 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 15:37:34.860 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (19 ms)
+2026-07-16 15:37:34.860 [http-nio-8082-exec-2] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (26 ms)
+2026-07-16 15:37:34.884 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramController.list() args=[0, 10]
+2026-07-16 15:37:34.884 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - ENTER ProgramServiceImpl.listActive() args=[0, 10]
+2026-07-16 15:37:34.898 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramServiceImpl.listActive() (14 ms)
+2026-07-16 15:37:34.898 [http-nio-8082-exec-5] INFO  c.c.candidate.aspect.LoggingAspect - EXIT  ProgramController.list() (14 ms)
+2026-07-16 15:41:26.805 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:42:53.670 [RMI TCP Connection(244)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-16 15:42:53.777 [RMI TCP Connection(244)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CANDIDATE-SERVICE with eureka with status DOWN
+2026-07-16 15:42:53.778 [RMI TCP Connection(244)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784196773778, current=DOWN, previous=UP]
+2026-07-16 15:42:53.782 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CANDIDATE-SERVICE/LTIN708779.cts.com:candidate-service:8082: registering service...
+2026-07-16 15:42:53.870 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CANDIDATE-SERVICE/LTIN708779.cts.com:candidate-service:8082 - registration status: 204
+2026-07-16 15:42:54.177 [RMI TCP Connection(244)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-16 15:42:54.276 [RMI TCP Connection(244)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-16 15:42:54.333 [RMI TCP Connection(244)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-16 15:42:54.341 [RMI TCP Connection(244)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-07-16 15:42:57.346 [RMI TCP Connection(244)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-07-16 15:42:57.498 [RMI TCP Connection(244)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CANDIDATE-SERVICE/LTIN708779.cts.com:candidate-service:8082 - deregister  status: 200
+2026-07-16 15:42:57.503 [RMI TCP Connection(244)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

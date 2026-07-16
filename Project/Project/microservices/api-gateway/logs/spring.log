@@ -106,3 +106,22 @@ Caused by: java.net.SocketException: Network is unreachable: getsockopt
 2026-07-16 14:17:09.761 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2026-07-16 14:22:09.765 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 2026-07-16 14:27:09.774 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:32:09.786 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 14:49:09.101 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:07:45.864 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:12:45.875 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:17:45.878 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:22:45.896 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:27:45.900 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:32:45.906 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:37:45.919 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:42:45.932 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 15:42:50.324 [RMI TCP Connection(250)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-16 15:42:50.450 [RMI TCP Connection(250)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application API-GATEWAY with eureka with status DOWN
+2026-07-16 15:42:50.455 [RMI TCP Connection(250)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784196770455, current=DOWN, previous=UP]
+2026-07-16 15:42:50.463 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/LTIN708779.cts.com:api-gateway:8098: registering service...
+2026-07-16 15:42:50.599 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/LTIN708779.cts.com:api-gateway:8098 - registration status: 204
+2026-07-16 15:42:52.950 [RMI TCP Connection(250)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-07-16 15:42:55.963 [RMI TCP Connection(250)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-07-16 15:42:56.027 [RMI TCP Connection(250)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/LTIN708779.cts.com:api-gateway:8098 - deregister  status: 200
+2026-07-16 15:42:56.029 [RMI TCP Connection(250)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
