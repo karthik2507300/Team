@@ -1,2 +1,215 @@
 2026-07-17 09:12:46.370 [restartedMain] INFO  c.c.auth.AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.8 with PID 7296 (C:\Users\2507300\Downloads\Project\Project\Project\microservices\auth-service\target\classes started by 2507300 in C:\Users\2507300\Downloads\Project\Project\Project\microservices\auth-service)
 2026-07-17 09:12:46.383 [restartedMain] INFO  c.c.auth.AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-17 09:12:46.441 [restartedMain] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8888
+2026-07-17 09:12:46.441 [restartedMain] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=auth-service, profiles=[default], label=null, version=null, state=null
+2026-07-17 09:12:46.444 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-17 09:12:46.445 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-17 09:12:47.366 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-17 09:12:47.468 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2026-07-17 09:12:47.733 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=be6c4b58-63d7-344a-9ff7-23020c01f154
+2026-07-17 09:12:48.016 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-07-17 09:12:48.020 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-07-17 09:12:48.387 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-07-17 09:12:48.397 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-17 09:12:48.397 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-17 09:12:48.444 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-17 09:12:48.445 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1999 ms
+2026-07-17 09:12:48.788 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-17 09:12:48.821 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-17 09:12:48.845 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-17 09:12:49.030 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-17 09:12:49.055 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-17 09:12:49.169 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fb903a8
+2026-07-17 09:12:49.170 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-17 09:12:49.798 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-17 09:12:49.846 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-17 09:12:50.161 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-07-17 09:12:50.229 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean - For 'candidate-service' URL not provided. Will try picking an instance via load-balancing.
+2026-07-17 09:12:50.624 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-17 09:12:51.271 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a65a02d6-e5e1-44b0-8a78-fb6c0a98b0d1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-17 09:12:51.278 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-07-17 09:12:52.084 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-07-17 09:12:53.024 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2026-07-17 09:12:53.081 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-17 09:12:53.157 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-07-17 09:12:53.177 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-07-17 09:12:53.180 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-07-17 09:12:53.186 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-07-17 09:12:53.394 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-07-17 09:12:53.395 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-07-17 09:12:53.396 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-17 09:12:53.398 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1784259773397 with initial instances count: 1
+2026-07-17 09:12:53.408 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AUTH-SERVICE with eureka with status UP
+2026-07-17 09:12:53.409 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784259773408, current=UP, previous=STARTING]
+2026-07-17 09:12:53.411 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081: registering service...
+2026-07-17 09:12:53.427 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-07-17 09:12:53.427 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2026-07-17 09:12:53.445 [restartedMain] INFO  c.c.auth.AuthServiceApplication - Started AuthServiceApplication in 7.706 seconds (process running for 8.256)
+2026-07-17 09:12:53.448 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081 - registration status: 204
+2026-07-17 09:12:54.037 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-17 09:12:54.037 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-17 09:12:54.039 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-07-17 09:14:24.579 [http-nio-8081-exec-10] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 450 ms
+2026-07-17 09:15:22.965 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-17 09:15:22.965 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-17 09:15:23.284 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (319 ms)
+2026-07-17 09:15:23.284 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (319 ms)
+2026-07-17 09:15:23.488 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-17 09:15:23.488 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-17 09:15:23.543 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (55 ms)
+2026-07-17 09:15:23.552 [http-nio-8081-exec-1] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (64 ms)
+2026-07-17 09:15:23.568 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-17 09:15:23.568 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-17 09:15:23.568 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (0 ms)
+2026-07-17 09:15:23.568 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (0 ms)
+2026-07-17 09:17:53.202 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:22:53.219 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:27:53.230 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:28:03.138 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-17 09:28:03.138 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-17 09:28:03.239 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (101 ms)
+2026-07-17 09:28:03.239 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (103 ms)
+2026-07-17 09:28:34.732 [http-nio-8081-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.certifypro.auth.dto.response.ApiResponse<com.certifypro.auth.dto.response.AuthResponse>> com.certifypro.auth.controller.AuthController.login(com.certifypro.auth.dto.request.LoginRequest) with 2 errors: [Field error in object 'loginRequest' on field 'password': rejected value [null]; codes [NotBlank.loginRequest.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequest.password,password]; arguments []; default message [password]]; default message [must not be blank]] [Field error in object 'loginRequest' on field 'email': rejected value [null]; codes [NotBlank.loginRequest.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequest.email,email]; arguments []; default message [email]]; default message [must not be blank]] ]
+2026-07-17 09:28:55.240 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-17 09:28:55.240 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-17 09:28:55.348 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (108 ms)
+2026-07-17 09:28:55.348 [http-nio-8081-exec-4] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (108 ms)
+2026-07-17 09:32:53.248 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:32:53.949 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.register() args=[RegisterRequest(masked)]
+2026-07-17 09:32:53.965 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.register() args=[RegisterRequest(masked)]
+2026-07-17 09:32:54.451 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.register() (486 ms)
+2026-07-17 09:32:54.465 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.register() (514 ms)
+2026-07-17 09:34:36.343 [http-nio-8081-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:34:40.782 [http-nio-8081-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:34:44.605 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthController.login() args=[LoginRequest(masked)]
+2026-07-17 09:34:44.605 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - ENTER AuthServiceImpl.login() args=[LoginRequest(masked)]
+2026-07-17 09:34:44.714 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthServiceImpl.login() (109 ms)
+2026-07-17 09:34:44.714 [http-nio-8081-exec-9] INFO  c.c.auth.aspect.LoggingAspect - EXIT  AuthController.login() (109 ms)
+2026-07-17 09:35:00.442 [http-nio-8081-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:35:01.708 [http-nio-8081-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:35:02.623 [http-nio-8081-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:37:49.212 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-17 09:37:49.212 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-17 09:37:49.224 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (12 ms)
+2026-07-17 09:37:49.224 [http-nio-8081-exec-6] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (12 ms)
+2026-07-17 09:37:49.237 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 10]
+2026-07-17 09:37:49.238 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 10]
+2026-07-17 09:37:49.245 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (7 ms)
+2026-07-17 09:37:49.245 [http-nio-8081-exec-3] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (8 ms)
+2026-07-17 09:37:53.255 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:40:01.424 [http-nio-8081-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:40:02.773 [http-nio-8081-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/auth/logut.]
+2026-07-17 09:40:37.288 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-17 09:40:37.289 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application AUTH-SERVICE with eureka with status DOWN
+2026-07-17 09:40:37.289 [RMI TCP Connection(39)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784261437289, current=DOWN, previous=UP]
+2026-07-17 09:40:37.289 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081: registering service...
+2026-07-17 09:40:37.308 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081 - registration status: 204
+2026-07-17 09:40:37.311 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-17 09:40:37.315 [RMI TCP Connection(39)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-17 09:40:37.324 [RMI TCP Connection(39)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-17 09:40:37.325 [RMI TCP Connection(39)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-07-17 09:40:40.337 [RMI TCP Connection(39)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-07-17 09:40:40.354 [RMI TCP Connection(39)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081 - deregister  status: 200
+2026-07-17 09:40:40.355 [RMI TCP Connection(39)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2026-07-17 09:41:33.546 [restartedMain] INFO  c.c.auth.AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.8 with PID 18032 (C:\Users\2507300\Downloads\Project\Project\Project\microservices\auth-service\target\classes started by 2507300 in C:\Users\2507300\Downloads\Project\Project\Project\microservices\auth-service)
+2026-07-17 09:41:33.549 [restartedMain] INFO  c.c.auth.AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-17 09:41:33.602 [restartedMain] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8888
+2026-07-17 09:41:33.602 [restartedMain] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=auth-service, profiles=[default], label=null, version=null, state=null
+2026-07-17 09:41:33.604 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-17 09:41:33.604 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-17 09:41:35.203 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-17 09:41:35.388 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 177 ms. Found 2 JPA repository interfaces.
+2026-07-17 09:41:35.908 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=be6c4b58-63d7-344a-9ff7-23020c01f154
+2026-07-17 09:41:36.436 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-07-17 09:41:36.440 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-07-17 09:41:37.112 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-07-17 09:41:37.133 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-17 09:41:37.133 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-17 09:41:37.236 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-17 09:41:37.237 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3631 ms
+2026-07-17 09:41:37.806 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-17 09:41:37.878 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-17 09:41:37.915 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-17 09:41:38.311 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-17 09:41:38.355 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-17 09:41:38.574 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c72d973
+2026-07-17 09:41:38.577 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-17 09:41:39.877 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-17 09:41:39.963 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-17 09:41:40.706 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-07-17 09:41:40.850 [restartedMain] INFO  o.s.c.o.FeignClientFactoryBean - For 'candidate-service' URL not provided. Will try picking an instance via load-balancing.
+2026-07-17 09:41:41.725 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-17 09:41:43.128 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 055789d8-7168-4990-b607-16c0929f3e19
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-17 09:41:43.147 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-07-17 09:41:44.979 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-07-17 09:41:47.522 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2026-07-17 09:41:47.683 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-17 09:41:47.865 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-07-17 09:41:47.926 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-07-17 09:41:47.941 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-07-17 09:41:47.970 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-07-17 09:41:48.445 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-07-17 09:41:48.448 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-07-17 09:41:48.451 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-17 09:41:48.452 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1784261508452 with initial instances count: 0
+2026-07-17 09:41:48.476 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application AUTH-SERVICE with eureka with status UP
+2026-07-17 09:41:48.478 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784261508478, current=UP, previous=STARTING]
+2026-07-17 09:41:48.480 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081: registering service...
+2026-07-17 09:41:48.513 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-07-17 09:41:48.514 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2026-07-17 09:41:48.541 [restartedMain] INFO  c.c.auth.AuthServiceApplication - Started AuthServiceApplication in 15.829 seconds (process running for 16.781)
+2026-07-17 09:41:48.554 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081 - registration status: 204
+2026-07-17 09:41:49.322 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-17 09:41:49.322 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-17 09:41:49.326 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-07-17 09:42:10.963 [http-nio-8081-exec-1] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 420 ms
+2026-07-17 09:42:18.464 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-07-17 09:42:18.465 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-07-17 09:42:18.465 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-07-17 09:42:18.465 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-07-17 09:42:18.465 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-07-17 09:42:18.465 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2026-07-17 09:42:18.465 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-07-17 09:42:18.498 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-07-17 09:42:24.711 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-17 09:42:24.711 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-17 09:42:24.779 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (68 ms)
+2026-07-17 09:42:24.780 [http-nio-8081-exec-10] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (69 ms)
+2026-07-17 09:42:24.812 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserController.list() args=[null, null, 0, 1]
+2026-07-17 09:42:24.812 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - ENTER UserServiceImpl.list() args=[null, null, 0, 1]
+2026-07-17 09:42:24.821 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserServiceImpl.list() (9 ms)
+2026-07-17 09:42:24.821 [http-nio-8081-exec-2] INFO  c.c.auth.aspect.LoggingAspect - EXIT  UserController.list() (9 ms)
+2026-07-17 09:43:40.789 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-17 09:43:40.789 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application AUTH-SERVICE with eureka with status DOWN
+2026-07-17 09:43:40.789 [RMI TCP Connection(11)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784261620789, current=DOWN, previous=UP]
+2026-07-17 09:43:40.789 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081: registering service...
+2026-07-17 09:43:40.798 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081 - registration status: 204
+2026-07-17 09:43:40.806 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-17 09:43:40.809 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-17 09:43:40.817 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-17 09:43:40.817 [RMI TCP Connection(11)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-07-17 09:43:43.821 [RMI TCP Connection(11)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-07-17 09:43:43.839 [RMI TCP Connection(11)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_AUTH-SERVICE/LTIN708779.cts.com:auth-service:8081 - deregister  status: 200
+2026-07-17 09:43:43.839 [RMI TCP Connection(11)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
