@@ -43,7 +43,10 @@ public class SecurityConfig {
                                 "/api/auth/login",
                                 "/api/auth/refresh-token",
                                 "/api/users/internal/**",
-                                "/actuator/**"
+                                "/actuator/**",
+                                "/swagger-ui.html",
+                                "/swagger-ui/**",
+                                "/v3/api-docs/**"
                         ).permitAll()
                         .anyRequest().authenticated())
                 .sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
